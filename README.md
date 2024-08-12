@@ -8,7 +8,7 @@ Not Yet Finished (NYF)
 
 ### Arrays and Strings
 - Find Closest Number to Zero
-- Merge Strings Alternatevely
+- Merge Strings Alternatively
 - Roman to Integer
 - Is Subsequence
 - Best Time to Buy and Sell Stock
