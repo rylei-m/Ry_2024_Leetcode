@@ -1,10 +1,6 @@
 # Ry_2024_Leetcode
 
 Following the following pathway provided by Algomap.io to review and learn DSA topics.
-## Table of Contents
-- Arrays and Strings
-- 
-Not Yet Finished (NYF)
 
 ### Arrays and Strings
 - Find Closest Number to Zero
