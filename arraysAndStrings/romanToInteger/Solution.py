@@ -15,7 +15,9 @@ class Solution:
         return su
 
 
-Test1 = "MCMXCIV"
-Test2 = "LVIII"
-Test3 = "XIV"
-Test4 = "XXX"
+Tests = [
+    "MCMXCIV",
+    "LVIII",
+    "XIV",
+    "XXX",
+]

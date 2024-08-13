@@ -1,13 +1,10 @@
-from arraysAndStrings.romanToInteger.Solution import Solution, Test1, Test2, Test3, Test4
+from arraysAndStrings.romanToInteger.Solution import Solution, Tests
 
 
 class Main:
     solution = Solution()
-    t1 = solution.romanToInt(Test1)
-    t2 = solution.romanToInt(Test2)
-    t3 = solution.romanToInt(Test3)
-    t4 = solution.romanToInt(Test4)
-    print(t1, t2, t3, t4)
+    results = solution.romanToInt(Tests[2])
+    print(results)
 
 
 if __name__ == "__Main__":
