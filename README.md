@@ -1,4 +1,4 @@
-# Ry_2024_Leetcode
+# Leetcode Unit 1: Arrays and Strings
 
 Following the following pathway provided by Algomap.io to review and learn DSA topics.
 
