@@ -1,16 +1,12 @@
-# Ry_2024_Leetcode
+# Leetcode Unit 1: Arrays and Strings
 
-Following the following pathway provided by Algomap.io to review and learn DSA topics.
-## Table of Contents
-- Arrays and Strings
-- 
-Not Yet Finished (NYF)
+Following the following pathway provided by algomap.io to review and learn DSA topics.
 
 ### Arrays and Strings
-- Find Closest Number to Zero
-- Merge Strings Alternatively
-- Roman to Integer
-- Is Subsequence
+- Find Closest Number to Zero ✅
+- Merge Strings Alternatively ✅
+- Roman to Integer ✅
+- Is Subsequence ✅
 - Best Time to Buy and Sell Stock
 - Longest Common Prefix
 - Summary Ranges
