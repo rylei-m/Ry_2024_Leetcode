@@ -3,7 +3,7 @@ from arraysAndStrings.bestTimeToBuyAndSellStock.Solution import Solution, prices
 
 class Main:
     solution = Solution()
-    result = solution.maxProfit(prices)
+    result = solution.max_profit(prices)
     print(result)
 
 

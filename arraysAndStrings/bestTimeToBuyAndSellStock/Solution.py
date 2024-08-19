@@ -2,19 +2,19 @@ from pyparsing import List
 
 
 class Solution:
-    def maxProfit(self, prices: List[int]) -> int:
-        maxProfit = 0
-        minPrice = float('inf')
+    def max_profit(self, prices: List[int]) -> int:
+        max_profit = 0
+        min_price = float('inf')
 
         for price in prices:
-            if price < minPrice:
-               minPrice = price
+            if price < min_price:
+                min_price = price
 
-            profit = price - minPrice
-            if profit > maxProfit:
-                maxProfit = profit
+            profit = price - min_price
+            if profit > max_profit:
+                max_profit = profit
 
-        return maxProfit
+        return max_profit
 
 
 prices = [7, 1, 5, 3, 6, 4]
