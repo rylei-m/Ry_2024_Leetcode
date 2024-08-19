@@ -3,15 +3,18 @@ from pyparsing import List
 
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
-        maxProfit = float('-inf')
-        for i in range(len(prices)):
-            for j in range(i+1, len(prices)):
-                profit = prices[j] - prices[i]
+        maxProfit = 0
+        minPrice = float('inf')
 
-                if profit > 0:
-                    maxProfit = max(maxProfit, profit)
+        for price in prices:
+            if price < minPrice:
+               minPrice = price
 
-        return maxProfit if maxProfit > float('-inf') else 0
+            profit = price - minPrice
+            if profit > maxProfit:
+                maxProfit = profit
+
+        return maxProfit
 
 
-prices = [7,1,5,3,6,4]
+prices = [7, 1, 5, 3, 6, 4]
