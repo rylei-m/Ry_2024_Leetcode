@@ -1,9 +1,10 @@
-from arraysAndStrings.bestTimeToBuyAndSellStock.Solution import Solution
+from arraysAndStrings.bestTimeToBuyAndSellStock.Solution import Solution, prices
 
 
 class Main:
     solution = Solution()
-    print(solution)
+    result = solution.maxProfit(prices)
+    print(result)
 
 
 if __name__ == "__main__":
